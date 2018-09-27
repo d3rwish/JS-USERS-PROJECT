@@ -1,0 +1,39 @@
+/* FONTS
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+
+#logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: #fff ;
+}
+
+.navbar-default {
+    border: none;
+    padding: 20px 0;
+    background-color: #0f0f0f;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.nav {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    color: #fff ;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #0f8ff8;
+}
+
+#users-list-region {
+    margin-top: 90px;
+}
+
+#contact {
+    text-align: center;
+    padding-top: 16px;
+}
