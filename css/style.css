@@ -1,0 +1,158 @@
+/* FONTS
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-family: 'Abel', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+
+/* -------------------------------------- */
+
+#logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    color: #fff ;
+}
+
+.navbar-default {
+    border: none;
+    padding: 8px 0;
+    background-color: #333333;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.nav {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6em;
+    color: #fff ;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #0f8ff8;
+}
+
+.navbar-default .navbar-nav>li>a:active  {
+    color: #ffffff;
+}
+
+/* -------------------------------------- */
+
+#users-list-region {
+    margin-top: 70px;
+}
+
+/* -------------------------------------- */
+
+.panel {
+    background-color: #7070701f;
+    margin: 15px 5px;
+    border: 1px solid #00000021;
+}
+
+.panel-heading {
+    background-color: #c8c8c8;
+}
+
+.panel-content {
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.panel-content>.row {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+.panel-content>.row>div {
+	padding-left: 0px;
+    padding-right: 0px
+}
+
+
+.panel-edit .panel-remove {
+	padding-left: 0px;
+    padding-right: 0px
+}
+
+.panel-main {
+    padding: 0px;
+    border-top: 1px;
+    border-top-color: #00000050;
+    border-top-style: solid;
+}
+
+.row-shadow {
+    margin: 0px;
+    padding: 12px 8px;
+    box-shadow: 0px 6px 4px -2px rgba(66, 66, 66, 0.2);
+}
+
+.user-pic {
+    padding: 0px;
+    text-align: center;
+}
+
+.image {
+    border-radius: 70px;
+    height: 118px;
+    width: 118px;
+}
+
+.user-content {
+    padding: 0px;
+}
+
+.user-content>.row {
+    margin: 0px;
+}
+
+.user-content>.row>div {
+    padding: 0px;
+}
+
+.user-content-title {
+    padding: 0px;
+    margin: 0px;
+}
+
+.user-content-title div:nth-of-type(1) {
+    width: auto;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.user-content-info {
+    padding-left: 8px;
+    padding-right: 0px;
+    padding-top: 6px;
+}
+
+.user-content-info span:nth-of-type(1) {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.18em;
+    padding-right: 8px;
+}
+
+.user-content-info span:nth-of-type(2) {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.03em;
+}
+
+.panel-footer {
+    background-color: #bbbbbb50;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+/* -------------------------------------- */
+
+#contact {
+    text-align: center;
+    padding-top: 16px;
+}
+
+/* -------------------------------------- */
