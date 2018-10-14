@@ -25,86 +25,15 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" id="add-user">ADD USER</a></li>
-                        <li><a href="#" id="users-list">USERS LIST</a></li>
+                        <li><a href="#" id="get-users">GET USER</a></li>
+                        <li><a href="#" id="list-users">USERS LIST</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <div id="users-list-region">
-            
-            <div class="container-fluid">
-                <div class="col-md-8 col-md-offset-2">
-
-                    <div class="panel">
-                        <div class="panel-heading panel-content">
-                            <div class="row">
-                                <div class="col-md-2 status-info shadow-right">
-                                    <div>Status Info</div>
-                                </div>
-                                <div class="col-md-8 user-name">
-                                    <div>Name Surname</div>
-                                </div>
-                                <div class="col-md-2 user-edit shadow-left">
-                                    <div class="col-md-6 user-edit-panel">
-                                        <button class="btn btn-warning" onclick="openEditModal()" data-toggle="modal" data-target="#editModal">Edit</button>
-                                    </div>
-                                    <div class="col-md-6 user-delete-panel">
-                                        <button class="btn btn-danger" onclick="openRemoveModal()" data-toggle="modal" data-target="#removeModal">Delete</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-body panel-main">
-                            <div class="row row-shadow">
-                                <div class="user-pic col-md-3">
-                                    <img class="image" src="img/user-icon.png" alt="NAME SURNAME">
-                                </div>
-                                <div class="user-content col-md-9">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="user-content-title">
-                                                <div>Personal Info</div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Registration Number:</span>
-                                                    <span>37909890</span>
-                                                </div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Department:</span>
-                                                    <span>Production</span>
-                                                </div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Position:</span>
-                                                    <span>Lider</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="user-content-title">
-                                                <div>Contact Info</div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Email:</span>
-                                                    <span>user@mail.com</span>
-                                                </div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Primary Phone:</span>
-                                                    <span>666-444-222</span>
-                                                </div>
-                                                <div class="col-md-11 col-md-offset-1 user-content-info">
-                                                    <span>Secondary Phone:</span>
-                                                    <span>686-464-242</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-footer"></div>
-                    </div>
-                </div>
-            </div>
+            <div id="app"></div>
         </div>
 
 	<!-- FOOTER -->
@@ -116,6 +45,11 @@
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-firestore.js"></script>
+    <script src="js/min.js"></script>
+
     <script src="js/script.js"></script>
 
     
